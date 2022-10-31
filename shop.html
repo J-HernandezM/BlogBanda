@@ -33,7 +33,7 @@
                     <img src="/assets/AL-vamos.jpg" alt="album a dónde vamos">
                     <div class="buy">
                     <span>$12.99</span>
-                        <button>🛒</button>
+                        <button role="button">🛒</button>
                     </div>
                 </div>
                 <div class="card">
@@ -41,7 +41,7 @@
                     <img src="/assets/AL-balas.jpg" alt="album balas perdidas">
                     <div class="buy">
                         <span>$12.99</span>
-                        <button>🛒</button>
+                        <button role="button">🛒</button>
                     </div>
                 </div>
                 
@@ -50,7 +50,7 @@
                     <img src="/assets/AL-amor.jpg" alt="album Sobre el amor">
                     <div class="buy">
                         <span>$12.99</span>
-                        <button>🛒</button>
+                        <button role="button">🛒</button>
                     </div>
                 </div>
                 <div class="card">
@@ -58,7 +58,7 @@
                     <img src="/assets/AL-paris.jpg" alt="album paris">
                     <div class="buy">
                         <span>$12.99</span>
-                        <button>🛒</button>
+                        <button role="button">🛒</button>
                     </div>
                 </div>
             </div>
@@ -66,16 +66,67 @@
         <section>
             <h2>MERCH</h2>
             <div class="contenedor merch">
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
-                <div class="card"></div>
+                <div class="card">
+                    <p>T-Shirt 1</p>
+                    <img src="/assets/camisa.jpg" alt="camisa 1">
+                    <div class="buy">
+                        <span>$19.99</span>
+                        <button role="button">🛒</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>T-Shirt 2</p>
+                    <img src="/assets/camisa2.jpg" alt="camisa 2">
+                    <div class="buy">
+                        <span>$35.99</span>
+                        <button role="button">🛒</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>T-Shirt 3</p>
+                    <img src="/assets/camisa3.jpg" alt="camisa 3">
+                    <div class="buy">
+                        <span>$19.99</span>
+                        <button role="button">🛒</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Bucket Helmet</p>
+                    <img src="/assets/gorro.jpg" alt="bucket helmet">
+                    <div class="buy">
+                        <span>$25.99</span>
+                        <button role="button">🛒</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section>
             <h2>CARRITO</h2>
             <div class="contenedor carrito">
-
+                <div class="carrito head">
+                    <span>ITEM</span>
+                    <span>PRECIO</span>
+                    <span>CANTIDAD</span>
+                </div>
+                <div class="carrito compra">
+                    <img src="/assets/AL-vamos.jpg" alt="album a donde vamos" width="50px">
+                    <span>¿A dónde vamos?</span>
+                    <span>$12.99</span>
+                    <input type="number" name="cantidad" value="1">
+                    <button role="button">REMOVE</button>
+                </div>
+                <div class="carrito compra">
+                    <img src="/assets/camisa.jpg" alt="camisa" width="50px">
+                    <span>T-Shirt 1</span>
+                    <span>$35.99</span>
+                    <input type="number" name="cantidad" value="2">
+                    <button role="button">REMOVE</button>
+                </div>
+                <hr>
+                <div class="carrito total">
+                    <span>TOTAL</span>
+                    <span>48.88</span>
+                </div>
             </div>
         </section>
     </main>
