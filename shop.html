@@ -5,138 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="BLOG FANPAGE ACERCA DE MORAT BANDA">
-    <title>MORAT FANPAGE</title>
+    <title>MORAT FANPAGE | SHOP</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="shop.html">SHOP</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <figure>
+        <h1 class="nombre-banda nombre-banda-grande">MORAT BANDA</h1>
+        <figure class="logo">
             <img src="assets/logo.png" alt="logo morat">
         </figure>
-        <h1>MORAT BANDA</h1>
-
     </header>
-    <main>
-        <section>
-            <h2>ALBUMS</h2>
-            <div class="contenedor album">
-                <div class="card">
-                    <p>¿A dónde vamos?</p>
-                    <img src="/assets/AL-vamos.jpg" alt="album a dónde vamos">
-                    <div class="buy">
-                    <span>$12.99</span>
-                        <button role="button">🛒</button>
+        <section class="content-section container">
+            <main>
+                <section>
+                    <h2 class="section-header">ALBUMS</h2>
+                    <div class="contenedor album">
+                        <div class="card">
+                            <p>¿A dónde vamos?</p>
+                            <img src="/assets/AL-vamos.jpg" alt="album a dónde vamos">
+                            <div class="buy">
+                            <span>$12.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p>Balas perdidas</p>
+                            <img src="/assets/AL-balas.jpg" alt="album balas perdidas">
+                            <div class="buy">
+                                <span>$12.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <p>Sobre el Amor</p>
+                            <img src="/assets/AL-amor.jpg" alt="album Sobre el amor">
+                            <div class="buy">
+                                <span>$12.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p>Paris</p>
+                            <img src="/assets/AL-paris.jpg" alt="album paris">
+                            <div class="buy">
+                                <span>$12.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p>Balas perdidas</p>
-                    <img src="/assets/AL-balas.jpg" alt="album balas perdidas">
-                    <div class="buy">
-                        <span>$12.99</span>
-                        <button role="button">🛒</button>
+                </section>
+                <section>
+                    <h2 class="section-header">MERCH</h2>
+                    <div class="contenedor merch">
+                        <div class="card">
+                            <p>T-Shirt 1</p>
+                            <img src="/assets/camisa.jpg" alt="camisa 1">
+                            <div class="buy">
+                                <span>$19.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p>T-Shirt 2</p>
+                            <img src="/assets/camisa2.jpg" alt="camisa 2">
+                            <div class="buy">
+                                <span>$35.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p>T-Shirt 3</p>
+                            <img src="/assets/camisa3.jpg" alt="camisa 3">
+                            <div class="buy">
+                                <span>$19.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p>Bucket Helmet</p>
+                            <img src="/assets/gorro.jpg" alt="bucket helmet">
+                            <div class="buy">
+                                <span>$25.99</span>
+                                <button role="button">🛒</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="card">
-                    <p>Sobre el Amor</p>
-                    <img src="/assets/AL-amor.jpg" alt="album Sobre el amor">
-                    <div class="buy">
-                        <span>$12.99</span>
-                        <button role="button">🛒</button>
+                </section>
+                <section>
+                    <h2 class="section-header">CARRITO</h2>
+                    <div class="contenedor carrito">
+                        <div class="carrito head">
+                            <span>ITEM</span>
+                            <span>PRECIO</span>
+                            <span>CANTIDAD</span>
+                        </div>
+                        <div class="carrito compra">
+                            <img src="/assets/AL-vamos.jpg" alt="album a donde vamos" width="50px">
+                            <span>¿A dónde vamos?</span>
+                            <span>$12.99</span>
+                            <input type="number" name="cantidad" value="1">
+                            <button role="button">REMOVE</button>
+                        </div>
+                        <div class="carrito compra">
+                            <img src="/assets/camisa.jpg" alt="camisa" width="50px">
+                            <span>T-Shirt 1</span>
+                            <span>$35.99</span>
+                            <input type="number" name="cantidad" value="2">
+                            <button role="button">REMOVE</button>
+                        </div>
+                        <hr>
+                        <div class="carrito total">
+                            <span>TOTAL</span>
+                            <span>48.88</span>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <p>Paris</p>
-                    <img src="/assets/AL-paris.jpg" alt="album paris">
-                    <div class="buy">
-                        <span>$12.99</span>
-                        <button role="button">🛒</button>
-                    </div>
-                </div>
-            </div>
+                </section>
+            </main>
         </section>
-        <section>
-            <h2>MERCH</h2>
-            <div class="contenedor merch">
-                <div class="card">
-                    <p>T-Shirt 1</p>
-                    <img src="/assets/camisa.jpg" alt="camisa 1">
-                    <div class="buy">
-                        <span>$19.99</span>
-                        <button role="button">🛒</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <p>T-Shirt 2</p>
-                    <img src="/assets/camisa2.jpg" alt="camisa 2">
-                    <div class="buy">
-                        <span>$35.99</span>
-                        <button role="button">🛒</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <p>T-Shirt 3</p>
-                    <img src="/assets/camisa3.jpg" alt="camisa 3">
-                    <div class="buy">
-                        <span>$19.99</span>
-                        <button role="button">🛒</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <p>Bucket Helmet</p>
-                    <img src="/assets/gorro.jpg" alt="bucket helmet">
-                    <div class="buy">
-                        <span>$25.99</span>
-                        <button role="button">🛒</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>CARRITO</h2>
-            <div class="contenedor carrito">
-                <div class="carrito head">
-                    <span>ITEM</span>
-                    <span>PRECIO</span>
-                    <span>CANTIDAD</span>
-                </div>
-                <div class="carrito compra">
-                    <img src="/assets/AL-vamos.jpg" alt="album a donde vamos" width="50px">
-                    <span>¿A dónde vamos?</span>
-                    <span>$12.99</span>
-                    <input type="number" name="cantidad" value="1">
-                    <button role="button">REMOVE</button>
-                </div>
-                <div class="carrito compra">
-                    <img src="/assets/camisa.jpg" alt="camisa" width="50px">
-                    <span>T-Shirt 1</span>
-                    <span>$35.99</span>
-                    <input type="number" name="cantidad" value="2">
-                    <button role="button">REMOVE</button>
-                </div>
-                <hr>
-                <div class="carrito total">
-                    <span>TOTAL</span>
-                    <span>48.88</span>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <h3>MORATBANDA</h3>
-        <figure>
-            <a href="https://twitter.com/MoratBanda" target="_blank"><img src="/assets/twitter.png" alt="Twitter MORAT"></a>
-            <a href="https://www.instagram.com/morat/?hl=es" target="_blank"><img src="/assets/instagram.png" alt="Instagram MORAT"></a>
-        </figure>
-    </footer>
+        <footer class="main-footer">
+            <h3 class="nombre-banda">MORAT BANDA</h3>
+            <figure class="nav footer-nav">
+                <a href="https://twitter.com/MoratBanda" target="_blank"><img src="/assets/twitter.png" alt="Twitter MORAT"></a>
+                <a href="https://www.instagram.com/morat/?hl=es" target="_blank"><img src="/assets/instagram.png" alt="Instagram MORAT"></a>
+            </figure>
+        </footer>
     <script src="index.js"></script>
 </body>
 </html>
