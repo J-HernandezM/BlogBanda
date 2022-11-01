@@ -3,12 +3,19 @@
 *{
     box-sizing: border-box;
     font-family: Jost;
-    color:rgb(43, 43, 43)
+    color:rgb(43, 43, 43);
 }
 
 html, body{
     margin:0;
     padding: 0;
+    background-color: #00ADB5;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
 }
 /* HEADER */
 header{
@@ -50,6 +57,34 @@ header{
     margin-bottom: 0;
     font-size: 5em;
 }
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.btn-header{
+    margin: 0px 10px 10px 10px;
+    color:#EEEEEE;
+    border: 2px solid #00ADB5;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 1.3em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-play{
+    color:#00ADB5;
+    border-radius: 50%;
+    padding: 0;
+    font-size:1.5em;
+    width:55.5px;
+    height: 55.5px;
+}
 /* MAIN */
 main{
     background-color: #00ADB5;
@@ -62,6 +97,7 @@ main{
     max-width: 900px;
     margin: 0% auto;
     padding: 0% 1.5em;
+    font-size: 18px;
 }
 .section-header{
     font-family: Plus Jakarta Sans;
@@ -77,6 +113,65 @@ main{
 .about-band-img{
     max-width:100%;
     margin: 0 auto;
+}
+.lista-concierto li{
+    border-bottom: 1px solid black;
+    list-style: none;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+.lista-concierto li:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    padding-right: .5em;
+    display:inline-block;
+}
+.tour-date{
+    color:rgb(31, 31, 31);
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+    width:42%;
+}
+.tour-btn{
+    max-width: 19%;
+    background-color: #E83C4F;
+    color:#EEEEEE;
+    border:none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.tour-btn:hover{
+    background-color: #cc3e4f;
+}
+.header-historia{
+    font-size: 7em;
+    margin: 10px 0px 10px 0px;
+}
+.card-title{
+    font-family: Plus Jakarta Sans;
+    font-weight: normal;
+    color: rgb(15, 15, 15);
+    font-size: 1.1em;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width:300px;
+    height: 300px;
+}
+.card{
+    margin:auto;
 }
 /* FOOTER */
 footer{
