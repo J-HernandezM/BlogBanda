@@ -1,4 +1,4 @@
-#BLOG APRENDIZAJE HTML Y CSS - FANPAGE
+# BLOG APRENDIZAJE HTML Y CSS - FANPAGE
 
 Construcción de FANPAGE acerca de una banda, con barra de navegación, contenido principal y barra de contacto y redes. Contiene tres secciones; homepage con un listado de eventos y sus respectivos botones; shop con un pequeño catálogo, items y carrito; y una sección de texto plano donde se habla acerca de la banda.
 
