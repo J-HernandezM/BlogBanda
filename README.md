@@ -2,6 +2,8 @@
 
 Construcción de FANPAGE acerca de una banda, con barra de navegación, contenido principal y barra de contacto y redes. Contiene tres secciones; homepage con un listado de eventos y sus respectivos botones; shop con un pequeño catálogo, items y carrito; y una sección de texto plano donde se habla acerca de la banda.
 
+## TO DO LIST
+
 - [x] Crear estructura *HTML*
 - [x] Estilizar la página para computadores
 - [ ] Estilizar la página responsive
@@ -11,9 +13,11 @@ Construcción de FANPAGE acerca de una banda, con barra de navegación, contenid
 	- [ ] Carrito completamente funcional
 - [ ] Aplicar dichos cambios al repositorio
 
-> "MORAT: Los BANJO robaos"
+## MORAT BANDA
 
-Puedes visitarlo desde mi `PORTAFOLIO` en <https://j-hernandezm.github.io> o directamente a través del siguiente [enlace](https://j-hernandezm.github.io/BlogBanda/index.html)
+> "Los BANJO robaos"
+
+Puedes visitar el blog desde mi `PORTAFOLIO` en <https://j-hernandezm.github.io> o directamente a través del siguiente [enlace](https://j-hernandezm.github.io/BlogBanda/index.html)
 
 ![](https://www.comunicacionsonora.com/wp-content/uploads/2014/05/132.jpg)
 
